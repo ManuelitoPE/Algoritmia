@@ -43,7 +43,7 @@ int main() {
     // Poder de los guerreros
     int poderGuerreros[] = {120, 160, 80}, numGuerreros = 3;
     // Armas para vencerlos (tipos permitidos)
-    int armasParaVencer[][3] = { {2, 0}, {1, 3, 0}, {3, 0} };
+    int armasParaVencer[][3] = { {2, 0, 0}, {1, 3, 0}, {3, 0, 0} };
 
     // Armas a nuestra disposición (poder, tipo y máximo 3 requisitos)
     int armaPoderTipoREQ[][5] = {

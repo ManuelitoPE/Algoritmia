@@ -148,11 +148,11 @@ void eliminaCola(struct Lista & lista) {
     struct Nodo * penultimo = nullptr;
     struct Nodo * recorrido = lista.cabeza;
 
-    while (recorrido != nullptr) {
-        if (ultimo != nullptr)
-            penultimo = ultimo;
-        ultimo = recorrido;
-        recorrido = recorrido->siguiente;
+        while (recorrido != nullptr) {
+            if (ultimo != nullptr)
+                penultimo = ultimo;
+            ultimo = recorrido;
+            recorrido = recorrido->siguiente;
     }
 
     if (ultimo != nullptr) {

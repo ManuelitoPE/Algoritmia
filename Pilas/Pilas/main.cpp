@@ -16,20 +16,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 
-    struct Pila pila;
-    construir(pila);
-    /*Apilamos elementos en la pila*/
-    apilar(pila, 1);
-    apilar(pila, 3);
-    apilar(pila, 2);
-    apilar(pila, 4);
-    imprimir(pila);
     
-    /*Desapilamos elementos en la pila*/
-    while(not esPilaVacia(pila)){
-        cout<<"Desapilando: "<<desapilar(pila)<<endl;
-    }
-    imprimir(pila);
     return 0;
 }
 

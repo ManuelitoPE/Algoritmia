@@ -9,6 +9,7 @@
 
 #ifndef FUNCIONES_H
 #define FUNCIONES_H
+#include "Lista.h"
 
 void construir(struct Lista &);
 const bool esListaVacia(const struct Lista &);
